@@ -1,0 +1,51 @@
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  backdrop-filter: blur(50%);
+}
+
+.box-container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #095882;
+  max-width: 761px;
+  max-height: 100px;
+  width: 761px;
+  height: 100px;
+  padding: 10% 6% 5%;
+  border-radius: 5px;
+}
+
+.box-container .cookie-input {
+  position: relative;
+  background-color: #6efce7bc;
+  color: #ffffff;
+  border: none;
+  padding: 10px 8%;
+  bottom: -85px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container {
+  width: 80%;
+}
+
+.login-container .login-button {
+  position: relative;
+  background-color: #6efce7bc;
+  color: #ffffff;
+  border: none;
+  bottom: -40px;
+  font-size: 16px;
+  margin-top: 50px;
+}
+

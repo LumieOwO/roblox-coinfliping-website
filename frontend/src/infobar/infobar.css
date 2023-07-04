@@ -1,0 +1,81 @@
+.infobar-container {
+  background-color: #1b16ad50;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-brand {
+  margin-right: auto;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  margin-left: 10px;
+}
+
+.login-sidebar,
+.deposit-button,
+.logout-button {
+  display: flex;
+  margin-left: 10px;
+  color: #e3f0fc;
+  background-color: #000000bc;
+  border: none;
+  font-size: 16px;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.deposit-button {
+  margin-right: 10px;
+}
+
+.avatar-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+
+.balance-text {
+  font-size: smaller;
+}
+
+.avatar-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 10px;
+  right: 95%;
+}
+
+.robuxcounter {
+  font-size: small;
+  left: 10px;
+  color: #e3f0fc;
+}
